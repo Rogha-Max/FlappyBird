@@ -240,7 +240,7 @@ function createBird(){
     bird.x = wST * 0.3;
     bird.y = hST / 2;
     bird.anchor.set(0.5);  
-    bird.animationSpeed = 0.25;
+    bird.animationSpeed = 0.5;
     bird.play();  
 }
 // Création des getReady
