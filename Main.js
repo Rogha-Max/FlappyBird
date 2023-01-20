@@ -11,7 +11,7 @@ let rTop, rBottom;
 let angle = 0, amplitude = 60;
 // Vitesse déplacement en X
 let vX = 3;
-let vY = 0, acc = 0.5, impulsion = -15;
+let vY = 0, acc = 1, impulsion = -10;
 let phaseJeu = 0; // 0: accueil, 1:jeu, 2:gameOver
 
 let ctrPaths = new PIXI.Container();
