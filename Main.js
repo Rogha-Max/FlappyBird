@@ -96,7 +96,7 @@ function init(){
 
     // Event
     window.addEventListener('keydown', function(e){
-        if(e.keyCode === 32){
+        if(e.keyCode === 38){ //32 = space
             if(phaseJeu === 2){
                 phaseJeu = 0;
                 idxLife = 0;
